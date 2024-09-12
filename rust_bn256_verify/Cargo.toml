@@ -1,0 +1,11 @@
+[package]
+name = "bn256_signature_verification"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+hex = "0.4"  # for decoding hex strings
+bls-signatures = "0.5"  # for BLS signatures
+bls-signatures-rs = "0.1"  # BN256 support, latest version is 0.1.0
+sha3 = "0.10" 
